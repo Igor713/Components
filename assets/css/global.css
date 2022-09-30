@@ -1,0 +1,39 @@
+.our-services {
+  background: #F7F7F7;
+  position: relative;
+}
+.our-services .container .service-title .title {
+  font-weight: bold;
+  font-size: 32px;
+}
+.our-services .container .service-title .content {
+  font-weight: 400;
+  font-size: 14px;
+  color: #555;
+}
+.our-services .container .row {
+  gap: 15px;
+}
+.our-services .container .row .service-card {
+  border-radius: 6px;
+  padding: 15px;
+}
+.our-services .container .row .service-card:hover {
+  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.our-services .container .row .service-card .image .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.our-services .container .row .service-card .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.our-services .container .row .service-card .content {
+  font-weight: 400;
+  font-size: 14px;
+  color: #555;
+}
+
+/*# sourceMappingURL=global.css.map */

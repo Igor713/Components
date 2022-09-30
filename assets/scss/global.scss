@@ -1,0 +1,54 @@
+//Nosso serviços
+.our-services {
+    background: #F7F7F7;
+    position: relative;
+
+    .container {
+        .service-title {
+            .title {
+                font-weight: bold;
+                font-size: 32px;
+            }
+
+            .content {
+                font-weight: 400;
+                font-size: 14px;
+                color: #555;
+            }
+        }
+
+        .row {
+            gap: 15px;
+
+            .service-card {
+                border-radius: 6px;
+                padding: 15px;
+
+                &:hover {
+                    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.1);
+                }
+
+                .image {
+                    .icon {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                    }
+                }
+
+                .title {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+                .content {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #555;
+                }
+            }
+        }
+    }
+}
+
+//Nosso serviços
